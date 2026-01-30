@@ -24,13 +24,18 @@
 <body>
   <div id="app">Loading...</div>
   <script>
+    const repo = 'https://raw.githubusercontent.com/franciscoturdera00/fsrs4anki_custom_algorithms/main';
     window.$docsify = {
       name: 'FSRS4Anki',
-      repo: '',
+      repo: 'https://github.com/franciscoturdera00/fsrs4anki_custom_algorithms',
       loadSidebar: true,
       subMaxLevel: 2,
-      homepage: '../README.md',
-      relativePath: true,
+      homepage: `${repo}/README.md`,
+      alias: {
+        '/blackout': `${repo}/blackout_fsrs/README.md`,
+        '/lazy': `${repo}/lazy_fsrs/README.md`,
+        '/tutorial': `${repo}/docs/tutorial.md`
+      },
       search: {
         placeholder: 'Search',
         noData: 'No results',

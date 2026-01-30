@@ -1,8 +1,6 @@
-- [Home](../README.md)
+- [Home](/)
 - **Schedulers**
-  - [Blackout FSRS](../blackout_fsrs/README.md)
-  - [Lazy FSRS](../lazy_fsrs/README.md)
+  - [Blackout FSRS](/blackout)
+  - [Lazy FSRS](/lazy)
 - **Guides**
-  - [Tutorial](tutorial.md)
-- **Reference**
-  - [Original Algorithm](../original_algorithm/)
+  - [Tutorial](/tutorial)
