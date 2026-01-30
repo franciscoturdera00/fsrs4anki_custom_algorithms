@@ -18,13 +18,14 @@ Add your blackout dates to the `blackout_dates` array:
 
 ```javascript
 const blackout_dates = [
-  "12-25",      // Christmas (recurring every year)
-  "01-01",      // New Year's Day (recurring every year)
+  "12-25", // Christmas (recurring every year)
+  "01-01", // New Year's Day (recurring every year)
   "2025-07-04", // Specific one-time date
 ];
 ```
 
 **Supported formats:**
+
 - `"MM-DD"` - Recurring yearly (e.g., "12-25" for Christmas every year)
 - `"YYYY-MM-DD"` - Specific date (e.g., "2025-12-25" for just that one day)
 
@@ -35,7 +36,7 @@ const blackout_dates = [
 1. Open Anki
 2. Go to **Tools** → **Deck Options**
 3. Scroll to the **FSRS** section
-4. Paste the contents of `blackout_fsrs_scheduler.js` into the **Custom scheduling** box
+4. Open [`blackout_fsrs_scheduler.js`](./blackout_fsrs_scheduler.js), copy all the code, and paste into the **Custom scheduling** box
 5. Customize the `blackout_dates` array with your dates
 6. Click **Save**
 
