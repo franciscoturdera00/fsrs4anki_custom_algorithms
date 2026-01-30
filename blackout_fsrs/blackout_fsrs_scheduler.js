@@ -59,7 +59,7 @@ const enable_fuzz = true;
 
 // FSRS supports displaying memory states of cards.
 // Enable it for debugging if you encounter something wrong.
-const display_memory_state = true;
+const display_memory_state = false;
 
 // Blackout dates - reviews will not be scheduled on these days
 // Supports recurring dates ("MM-DD") and specific dates ("YYYY-MM-DD")
@@ -68,7 +68,6 @@ const blackout_dates = [
   // "12-25",      // Christmas (recurring yearly)
   // "01-01",      // New Year's Day (recurring yearly)
   // "2025-07-04", // Specific one-time date
-  "2026-01-31", // Tomorrow - test
 ];
 
 // Maximum extra days to add when skipping blackouts (prevents extreme delays)
